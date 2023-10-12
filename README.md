@@ -1,2 +1,1 @@
-# simple_shell
-this is pair programming projects
+ this project is for pair programming project. for Richard KWIZERA and Aimable Ngoga
