@@ -1,10 +1,9 @@
 #include "shell.h"
 
 /**
- * _myhistory - displays the history list, one command by line, preceded
- *              with line numbers, starting at 0.
- * @info: Structure containing potential arguments. Used to maintain
- *        constant function prototype.
+ * -myhistory - Displays the command history list, Presentin each command 
+ *	on a separate line. accompanied by line numbers beginning at 0.
+ * @info: A structure that may contain potential arguments. Its purpose is  * 	to preserve a consistent function prototype.        
  *  Return: Always 0
  */
 int _myhistory(info_t *info)
@@ -14,9 +13,10 @@ int _myhistory(info_t *info)
 }
 
 /**
- * unset_alias - sets alias to string
- * @info: parameter struct
- * @str: the string alias
+ * unset_alias - Assigns an alias to a string.
+ *
+ * @info: A structure containing parameters.
+ * @str: The string representing the alias.
  *
  * Return: Always 0 on success, 1 on error
  */
