@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _strcpy - copies a string
+ * _strcpy - copies alias
  * @dest: the destination
  * @src: the source
  *
@@ -23,10 +23,10 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * _strdup - duplicates a string
- * @str: the string to duplicate
+ * _strdup - duplicates alias
+ * @str: the alias to duplicate
  *
- * Return: pointer to the duplicated string
+ * Return: pointer to the duplicated alias
  */
 char *_strdup(const char *str)
 {
@@ -46,8 +46,8 @@ char *_strdup(const char *str)
 }
 
 /**
- * _puts - prints an input string
- * @str: the string to be printed
+ * _puts - prints an input alias
+ * @str: the alias to be printed
  *
  * Return: Nothing
  */

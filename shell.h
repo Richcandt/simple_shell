@@ -41,7 +41,7 @@ extern char **environ;
 /**
  * struct liststr - singly linked list
  * @num: the number field
- * @str: a string
+ * @str: alias
  * @next: points to the next node
  */
 typedef struct liststr
@@ -54,9 +54,9 @@ typedef struct liststr
 /**
  * struct passinfo - contains pseudo-arguements to pass into a function,
  * allowing uniform prototype for function pointer struct
- * @arg: a string generated from getline containing arguements
+ * @arg: alias generated from getline containing arguements
  * @argv:an array of strings generated from arg
- * @path: a string path for the current command
+ * @path: alias path for the current command
  * @argc: the argument count
  * @line_count: the error count
  * @err_num: the error code for exit()s
@@ -101,7 +101,7 @@ typedef struct passinfo
 		0, 0, 0}
 
 /**
- * struct builtin - contains a builtin string and related function
+ * struct builtin - contains a builtin alias and related function
  * @type: the builtin command flag
  * @func: the function
  */
@@ -168,7 +168,7 @@ int _isalpha(int);
 int _atoi(char *);
 
 /* toem_bettychecks.c */
-int _erratoi(char *);
+int _errstrong(char *);
 void print_error(info_t *, char *);
 int print_d(int, int);
 char *convert_number(long int, int, int);

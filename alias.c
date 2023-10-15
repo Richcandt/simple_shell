@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * _strlen - returns the length of a string
- * @s: the string whose length to check
+ * _strlen - returns the length of alias
+ * @s: the alias whose length to check
  *
- * Return: integer length of string
+ * Return: integer length of alias
  */
 int _strlen(char *s)
 {
@@ -32,7 +32,6 @@ int _strcmp(char *s1, char *s2)
 		if (*s1 != *s2)
 			return (*s1 - *s2);
 		s1++;
-:wq
 	s2++;
 	}
 	if (*s1 == *s2)
